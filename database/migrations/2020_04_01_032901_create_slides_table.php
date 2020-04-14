@@ -13,7 +13,7 @@ class CreateSlidesTable extends Migration
      */
     public function up()
     {
-        Schema::create('slides', function (Blueprint $table) {
+        Schema::create('sides', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('link');
             $table->string('url_img');
